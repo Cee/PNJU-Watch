@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923916EE1AE10224000E9470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 923916ED1AE10224000E9470 /* main.m */; };
+		923916F11AE10224000E9470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 923916F01AE10224000E9470 /* AppDelegate.m */; };
+		923916F41AE10224000E9470 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923916F31AE10224000E9470 /* ViewController.m */; };
+		923916F71AE10224000E9470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923916F51AE10224000E9470 /* Main.storyboard */; };
+		923916F91AE10224000E9470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923916F81AE10224000E9470 /* Images.xcassets */; };
+		923916FC1AE10224000E9470 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923916FA1AE10224000E9470 /* LaunchScreen.xib */; };
+		923917081AE10224000E9470 /* PNJUForWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 923917071AE10224000E9470 /* PNJUForWatchTests.m */; };
+		9239171C1AE10235000E9470 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239171B1AE10235000E9470 /* InterfaceController.m */; };
+		9239171F1AE10235000E9470 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239171E1AE10235000E9470 /* NotificationController.m */; };
+		923917211AE10235000E9470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923917201AE10235000E9470 /* Images.xcassets */; };
+		923917251AE10235000E9470 /* PNJUForWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 923917241AE10235000E9470 /* PNJUForWatch WatchKit App.app */; };
+		9239172D1AE10235000E9470 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9239172B1AE10235000E9470 /* Interface.storyboard */; };
+		9239172F1AE10235000E9470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9239172E1AE10235000E9470 /* Images.xcassets */; };
+		923917321AE10235000E9470 /* PNJUForWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 923917151AE10235000E9470 /* PNJUForWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9239173C1AE103F0000E9470 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239173B1AE103F0000E9470 /* NetworkManager.m */; };
+		9239173D1AE1053D000E9470 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239173B1AE103F0000E9470 /* NetworkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		923917021AE10224000E9470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923916E01AE10224000E9470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923916E71AE10224000E9470;
+			remoteInfo = PNJUForWatch;
+		};
+		923917261AE10235000E9470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923916E01AE10224000E9470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923917231AE10235000E9470;
+			remoteInfo = "PNJUForWatch WatchKit App";
+		};
+		923917301AE10235000E9470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923916E01AE10224000E9470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923917141AE10235000E9470;
+			remoteInfo = "PNJUForWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		923917391AE10235000E9470 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				923917321AE10235000E9470 /* PNJUForWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		923916E81AE10224000E9470 /* PNJUForWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PNJUForWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923916EC1AE10224000E9470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923916ED1AE10224000E9470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		923916EF1AE10224000E9470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		923916F01AE10224000E9470 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		923916F21AE10224000E9470 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		923916F31AE10224000E9470 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		923916F61AE10224000E9470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		923916F81AE10224000E9470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		923916FB1AE10224000E9470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		923917011AE10224000E9470 /* PNJUForWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PNJUForWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923917061AE10224000E9470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923917071AE10224000E9470 /* PNJUForWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNJUForWatchTests.m; sourceTree = "<group>"; };
+		923917151AE10235000E9470 /* PNJUForWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PNJUForWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		923917181AE10235000E9470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923917191AE10235000E9470 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		9239171A1AE10235000E9470 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		9239171B1AE10235000E9470 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		9239171D1AE10235000E9470 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		9239171E1AE10235000E9470 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		923917201AE10235000E9470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		923917241AE10235000E9470 /* PNJUForWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PNJUForWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9239172A1AE10235000E9470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9239172C1AE10235000E9470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9239172E1AE10235000E9470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9239173A1AE103F0000E9470 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = "../PNJUForWatch WatchKit App/NetworkManager.h"; sourceTree = "<group>"; };
+		9239173B1AE103F0000E9470 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkManager.m; path = "../PNJUForWatch WatchKit App/NetworkManager.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923916E51AE10224000E9470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923916FE1AE10224000E9470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923917121AE10235000E9470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923916DF1AE10224000E9470 = {
+			isa = PBXGroup;
+			children = (
+				923916EA1AE10224000E9470 /* PNJUForWatch */,
+				923917041AE10224000E9470 /* PNJUForWatchTests */,
+				923917161AE10235000E9470 /* PNJUForWatch WatchKit Extension */,
+				923917281AE10235000E9470 /* PNJUForWatch WatchKit App */,
+				923916E91AE10224000E9470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		923916E91AE10224000E9470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923916E81AE10224000E9470 /* PNJUForWatch.app */,
+				923917011AE10224000E9470 /* PNJUForWatchTests.xctest */,
+				923917151AE10235000E9470 /* PNJUForWatch WatchKit Extension.appex */,
+				923917241AE10235000E9470 /* PNJUForWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923916EA1AE10224000E9470 /* PNJUForWatch */ = {
+			isa = PBXGroup;
+			children = (
+				923916EF1AE10224000E9470 /* AppDelegate.h */,
+				923916F01AE10224000E9470 /* AppDelegate.m */,
+				923916F21AE10224000E9470 /* ViewController.h */,
+				923916F31AE10224000E9470 /* ViewController.m */,
+				923916F51AE10224000E9470 /* Main.storyboard */,
+				923916F81AE10224000E9470 /* Images.xcassets */,
+				923916FA1AE10224000E9470 /* LaunchScreen.xib */,
+				923916EB1AE10224000E9470 /* Supporting Files */,
+			);
+			path = PNJUForWatch;
+			sourceTree = "<group>";
+		};
+		923916EB1AE10224000E9470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				923916EC1AE10224000E9470 /* Info.plist */,
+				923916ED1AE10224000E9470 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		923917041AE10224000E9470 /* PNJUForWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				923917071AE10224000E9470 /* PNJUForWatchTests.m */,
+				923917051AE10224000E9470 /* Supporting Files */,
+			);
+			path = PNJUForWatchTests;
+			sourceTree = "<group>";
+		};
+		923917051AE10224000E9470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				923917061AE10224000E9470 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		923917161AE10235000E9470 /* PNJUForWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9239173A1AE103F0000E9470 /* NetworkManager.h */,
+				9239173B1AE103F0000E9470 /* NetworkManager.m */,
+				9239171A1AE10235000E9470 /* InterfaceController.h */,
+				9239171B1AE10235000E9470 /* InterfaceController.m */,
+				9239171D1AE10235000E9470 /* NotificationController.h */,
+				9239171E1AE10235000E9470 /* NotificationController.m */,
+				923917201AE10235000E9470 /* Images.xcassets */,
+				923917171AE10235000E9470 /* Supporting Files */,
+			);
+			path = "PNJUForWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		923917171AE10235000E9470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				923917181AE10235000E9470 /* Info.plist */,
+				923917191AE10235000E9470 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		923917281AE10235000E9470 /* PNJUForWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9239172B1AE10235000E9470 /* Interface.storyboard */,
+				9239172E1AE10235000E9470 /* Images.xcassets */,
+				923917291AE10235000E9470 /* Supporting Files */,
+			);
+			path = "PNJUForWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		923917291AE10235000E9470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9239172A1AE10235000E9470 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923916E71AE10224000E9470 /* PNJUForWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9239170B1AE10224000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatch" */;
+			buildPhases = (
+				923916E41AE10224000E9470 /* Sources */,
+				923916E51AE10224000E9470 /* Frameworks */,
+				923916E61AE10224000E9470 /* Resources */,
+				923917391AE10235000E9470 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923917311AE10235000E9470 /* PBXTargetDependency */,
+			);
+			name = PNJUForWatch;
+			productName = PNJUForWatch;
+			productReference = 923916E81AE10224000E9470 /* PNJUForWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		923917001AE10224000E9470 /* PNJUForWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9239170E1AE10224000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatchTests" */;
+			buildPhases = (
+				923916FD1AE10224000E9470 /* Sources */,
+				923916FE1AE10224000E9470 /* Frameworks */,
+				923916FF1AE10224000E9470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923917031AE10224000E9470 /* PBXTargetDependency */,
+			);
+			name = PNJUForWatchTests;
+			productName = PNJUForWatchTests;
+			productReference = 923917011AE10224000E9470 /* PNJUForWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		923917141AE10235000E9470 /* PNJUForWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923917361AE10235000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatch WatchKit Extension" */;
+			buildPhases = (
+				923917111AE10235000E9470 /* Sources */,
+				923917121AE10235000E9470 /* Frameworks */,
+				923917131AE10235000E9470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923917271AE10235000E9470 /* PBXTargetDependency */,
+			);
+			name = "PNJUForWatch WatchKit Extension";
+			productName = "PNJUForWatch WatchKit Extension";
+			productReference = 923917151AE10235000E9470 /* PNJUForWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		923917231AE10235000E9470 /* PNJUForWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923917331AE10235000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatch WatchKit App" */;
+			buildPhases = (
+				923917221AE10235000E9470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PNJUForWatch WatchKit App";
+			productName = "PNJUForWatch WatchKit App";
+			productReference = 923917241AE10235000E9470 /* PNJUForWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923916E01AE10224000E9470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Cee;
+				TargetAttributes = {
+					923916E71AE10224000E9470 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					923917001AE10224000E9470 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 923916E71AE10224000E9470;
+					};
+					923917141AE10235000E9470 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					923917231AE10235000E9470 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 923916E31AE10224000E9470 /* Build configuration list for PBXProject "PNJUForWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923916DF1AE10224000E9470;
+			productRefGroup = 923916E91AE10224000E9470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923916E71AE10224000E9470 /* PNJUForWatch */,
+				923917001AE10224000E9470 /* PNJUForWatchTests */,
+				923917141AE10235000E9470 /* PNJUForWatch WatchKit Extension */,
+				923917231AE10235000E9470 /* PNJUForWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923916E61AE10224000E9470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923916F71AE10224000E9470 /* Main.storyboard in Resources */,
+				923916FC1AE10224000E9470 /* LaunchScreen.xib in Resources */,
+				923916F91AE10224000E9470 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923916FF1AE10224000E9470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923917131AE10235000E9470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923917211AE10235000E9470 /* Images.xcassets in Resources */,
+				923917251AE10235000E9470 /* PNJUForWatch WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923917221AE10235000E9470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9239172D1AE10235000E9470 /* Interface.storyboard in Resources */,
+				9239172F1AE10235000E9470 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923916E41AE10224000E9470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9239173C1AE103F0000E9470 /* NetworkManager.m in Sources */,
+				923916F41AE10224000E9470 /* ViewController.m in Sources */,
+				923916F11AE10224000E9470 /* AppDelegate.m in Sources */,
+				923916EE1AE10224000E9470 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923916FD1AE10224000E9470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923917081AE10224000E9470 /* PNJUForWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923917111AE10235000E9470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9239171F1AE10235000E9470 /* NotificationController.m in Sources */,
+				9239173D1AE1053D000E9470 /* NetworkManager.m in Sources */,
+				9239171C1AE10235000E9470 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		923917031AE10224000E9470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923916E71AE10224000E9470 /* PNJUForWatch */;
+			targetProxy = 923917021AE10224000E9470 /* PBXContainerItemProxy */;
+		};
+		923917271AE10235000E9470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923917231AE10235000E9470 /* PNJUForWatch WatchKit App */;
+			targetProxy = 923917261AE10235000E9470 /* PBXContainerItemProxy */;
+		};
+		923917311AE10235000E9470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923917141AE10235000E9470 /* PNJUForWatch WatchKit Extension */;
+			targetProxy = 923917301AE10235000E9470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		923916F51AE10224000E9470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923916F61AE10224000E9470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		923916FA1AE10224000E9470 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923916FB1AE10224000E9470 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9239172B1AE10235000E9470 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9239172C1AE10235000E9470 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		923917091AE10224000E9470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9239170A1AE10224000E9470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9239170C1AE10224000E9470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PNJUForWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9239170D1AE10224000E9470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PNJUForWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9239170F1AE10224000E9470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PNJUForWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PNJUForWatch.app/PNJUForWatch";
+			};
+			name = Debug;
+		};
+		923917101AE10224000E9470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PNJUForWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PNJUForWatch.app/PNJUForWatch";
+			};
+			name = Release;
+		};
+		923917341AE10235000E9470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PNJUForWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "PNJUForWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		923917351AE10235000E9470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = PNJUForWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "PNJUForWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		923917371AE10235000E9470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PNJUForWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		923917381AE10235000E9470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PNJUForWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923916E31AE10224000E9470 /* Build configuration list for PBXProject "PNJUForWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923917091AE10224000E9470 /* Debug */,
+				9239170A1AE10224000E9470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9239170B1AE10224000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9239170C1AE10224000E9470 /* Debug */,
+				9239170D1AE10224000E9470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9239170E1AE10224000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9239170F1AE10224000E9470 /* Debug */,
+				923917101AE10224000E9470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		923917331AE10235000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923917341AE10235000E9470 /* Debug */,
+				923917351AE10235000E9470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		923917361AE10235000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923917371AE10235000E9470 /* Debug */,
+				923917381AE10235000E9470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923916E01AE10224000E9470 /* Project object */;
+}
