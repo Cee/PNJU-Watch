@@ -21,8 +21,13 @@
 		9239172D1AE10235000E9470 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9239172B1AE10235000E9470 /* Interface.storyboard */; };
 		9239172F1AE10235000E9470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9239172E1AE10235000E9470 /* Images.xcassets */; };
 		923917321AE10235000E9470 /* PNJUForWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 923917151AE10235000E9470 /* PNJUForWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9239173C1AE103F0000E9470 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239173B1AE103F0000E9470 /* NetworkManager.m */; };
-		9239173D1AE1053D000E9470 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9239173B1AE103F0000E9470 /* NetworkManager.m */; };
+		92F2A48B1AE2AB750034F35C /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A48A1AE2AB750034F35C /* NetworkManager.m */; };
+		92F2A48C1AE2AB750034F35C /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A48A1AE2AB750034F35C /* NetworkManager.m */; };
+		92F2A4941AE2ABF80034F35C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F2A4931AE2ABF80034F35C /* NotificationCenter.framework */; };
+		92F2A49A1AE2ABF80034F35C /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A4991AE2ABF80034F35C /* TodayViewController.m */; };
+		92F2A49C1AE2ABF80034F35C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F2A49B1AE2ABF80034F35C /* MainInterface.storyboard */; };
+		92F2A49F1AE2ABF80034F35C /* PNJUTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 92F2A4911AE2ABF80034F35C /* PNJUTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		92F2A4A31AE2AE390034F35C /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A48A1AE2AB750034F35C /* NetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,13 @@
 			remoteGlobalIDString = 923917141AE10235000E9470;
 			remoteInfo = "PNJUForWatch WatchKit Extension";
 		};
+		92F2A49D1AE2ABF80034F35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923916E01AE10224000E9470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F2A4901AE2ABF80034F35C;
+			remoteInfo = PNJUTodayExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +69,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				923917321AE10235000E9470 /* PNJUForWatch WatchKit Extension.appex in Embed App Extensions */,
+				92F2A49F1AE2ABF80034F35C /* PNJUTodayExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,8 +102,14 @@
 		9239172A1AE10235000E9470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9239172C1AE10235000E9470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		9239172E1AE10235000E9470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9239173A1AE103F0000E9470 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = "../PNJUForWatch WatchKit App/NetworkManager.h"; sourceTree = "<group>"; };
-		9239173B1AE103F0000E9470 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkManager.m; path = "../PNJUForWatch WatchKit App/NetworkManager.m"; sourceTree = "<group>"; };
+		92F2A4891AE2AB750034F35C /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		92F2A48A1AE2AB750034F35C /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		92F2A4911AE2ABF80034F35C /* PNJUTodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PNJUTodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F2A4931AE2ABF80034F35C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		92F2A4971AE2ABF80034F35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F2A4981AE2ABF80034F35C /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		92F2A4991AE2ABF80034F35C /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		92F2A49B1AE2ABF80034F35C /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +134,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92F2A48E1AE2ABF80034F35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F2A4941AE2ABF80034F35C /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,6 +152,8 @@
 				923917041AE10224000E9470 /* PNJUForWatchTests */,
 				923917161AE10235000E9470 /* PNJUForWatch WatchKit Extension */,
 				923917281AE10235000E9470 /* PNJUForWatch WatchKit App */,
+				92F2A4951AE2ABF80034F35C /* PNJUTodayExtension */,
+				92F2A4921AE2ABF80034F35C /* Frameworks */,
 				923916E91AE10224000E9470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,6 +165,7 @@
 				923917011AE10224000E9470 /* PNJUForWatchTests.xctest */,
 				923917151AE10235000E9470 /* PNJUForWatch WatchKit Extension.appex */,
 				923917241AE10235000E9470 /* PNJUForWatch WatchKit App.app */,
+				92F2A4911AE2ABF80034F35C /* PNJUTodayExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +175,8 @@
 			children = (
 				923916EF1AE10224000E9470 /* AppDelegate.h */,
 				923916F01AE10224000E9470 /* AppDelegate.m */,
+				92F2A4891AE2AB750034F35C /* NetworkManager.h */,
+				92F2A48A1AE2AB750034F35C /* NetworkManager.m */,
 				923916F21AE10224000E9470 /* ViewController.h */,
 				923916F31AE10224000E9470 /* ViewController.m */,
 				923916F51AE10224000E9470 /* Main.storyboard */,
@@ -184,8 +216,6 @@
 		923917161AE10235000E9470 /* PNJUForWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9239173A1AE103F0000E9470 /* NetworkManager.h */,
-				9239173B1AE103F0000E9470 /* NetworkManager.m */,
 				9239171A1AE10235000E9470 /* InterfaceController.h */,
 				9239171B1AE10235000E9470 /* InterfaceController.m */,
 				9239171D1AE10235000E9470 /* NotificationController.h */,
@@ -223,6 +253,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		92F2A4921AE2ABF80034F35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92F2A4931AE2ABF80034F35C /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92F2A4951AE2ABF80034F35C /* PNJUTodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				92F2A4981AE2ABF80034F35C /* TodayViewController.h */,
+				92F2A4991AE2ABF80034F35C /* TodayViewController.m */,
+				92F2A49B1AE2ABF80034F35C /* MainInterface.storyboard */,
+				92F2A4961AE2ABF80034F35C /* Supporting Files */,
+			);
+			path = PNJUTodayExtension;
+			sourceTree = "<group>";
+		};
+		92F2A4961AE2ABF80034F35C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92F2A4971AE2ABF80034F35C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,6 +296,7 @@
 			);
 			dependencies = (
 				923917311AE10235000E9470 /* PBXTargetDependency */,
+				92F2A49E1AE2ABF80034F35C /* PBXTargetDependency */,
 			);
 			name = PNJUForWatch;
 			productName = PNJUForWatch;
@@ -296,6 +354,23 @@
 			productReference = 923917241AE10235000E9470 /* PNJUForWatch WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp";
 		};
+		92F2A4901AE2ABF80034F35C /* PNJUTodayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F2A4A01AE2ABF80034F35C /* Build configuration list for PBXNativeTarget "PNJUTodayExtension" */;
+			buildPhases = (
+				92F2A48D1AE2ABF80034F35C /* Sources */,
+				92F2A48E1AE2ABF80034F35C /* Frameworks */,
+				92F2A48F1AE2ABF80034F35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PNJUTodayExtension;
+			productName = PNJUTodayExtension;
+			productReference = 92F2A4911AE2ABF80034F35C /* PNJUTodayExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -318,6 +393,9 @@
 					923917231AE10235000E9470 = {
 						CreatedOnToolsVersion = 6.3;
 					};
+					92F2A4901AE2ABF80034F35C = {
+						CreatedOnToolsVersion = 6.3;
+					};
 				};
 			};
 			buildConfigurationList = 923916E31AE10224000E9470 /* Build configuration list for PBXProject "PNJUForWatch" */;
@@ -337,6 +415,7 @@
 				923917001AE10224000E9470 /* PNJUForWatchTests */,
 				923917141AE10235000E9470 /* PNJUForWatch WatchKit Extension */,
 				923917231AE10235000E9470 /* PNJUForWatch WatchKit App */,
+				92F2A4901AE2ABF80034F35C /* PNJUTodayExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -377,6 +456,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92F2A48F1AE2ABF80034F35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F2A49C1AE2ABF80034F35C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -384,7 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9239173C1AE103F0000E9470 /* NetworkManager.m in Sources */,
+				92F2A48B1AE2AB750034F35C /* NetworkManager.m in Sources */,
 				923916F41AE10224000E9470 /* ViewController.m in Sources */,
 				923916F11AE10224000E9470 /* AppDelegate.m in Sources */,
 				923916EE1AE10224000E9470 /* main.m in Sources */,
@@ -404,8 +491,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9239171F1AE10235000E9470 /* NotificationController.m in Sources */,
-				9239173D1AE1053D000E9470 /* NetworkManager.m in Sources */,
+				92F2A48C1AE2AB750034F35C /* NetworkManager.m in Sources */,
 				9239171C1AE10235000E9470 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F2A48D1AE2ABF80034F35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F2A4A31AE2AE390034F35C /* NetworkManager.m in Sources */,
+				92F2A49A1AE2ABF80034F35C /* TodayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +522,11 @@
 			isa = PBXTargetDependency;
 			target = 923917141AE10235000E9470 /* PNJUForWatch WatchKit Extension */;
 			targetProxy = 923917301AE10235000E9470 /* PBXContainerItemProxy */;
+		};
+		92F2A49E1AE2ABF80034F35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92F2A4901AE2ABF80034F35C /* PNJUTodayExtension */;
+			targetProxy = 92F2A49D1AE2ABF80034F35C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -649,6 +750,30 @@
 			};
 			name = Release;
 		};
+		92F2A4A11AE2ABF80034F35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PNJUTodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		92F2A4A21AE2ABF80034F35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PNJUTodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -668,6 +793,7 @@
 				9239170D1AE10224000E9470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9239170E1AE10224000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -676,6 +802,7 @@
 				923917101AE10224000E9470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		923917331AE10235000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -684,12 +811,22 @@
 				923917351AE10235000E9470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		923917361AE10235000E9470 /* Build configuration list for PBXNativeTarget "PNJUForWatch WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				923917371AE10235000E9470 /* Debug */,
 				923917381AE10235000E9470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F2A4A01AE2ABF80034F35C /* Build configuration list for PBXNativeTarget "PNJUTodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F2A4A11AE2ABF80034F35C /* Debug */,
+				92F2A4A21AE2ABF80034F35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
