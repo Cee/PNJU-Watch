@@ -6,6 +6,8 @@
 
 + [Windows](https://github.com/miaoxw/Auto-p.nju)
 + [Mac](https://github.com/Cee/PNJU-TodayWidget)
++ [Android](https://github.com/padeoe/AutoConnect)
++ [Alfred Workflow](https://github.com/Cee/PNJU-Workflow)
 
 ## Todo
 + [ ] Sharing Data with containing iOS App.
